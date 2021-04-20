@@ -1,27 +1,33 @@
+<!DOCTYPE html>
 <html>
 
+<head>
+    <link rel="stylesheet" href="css/base.css">
+    </link>
+    <link rel="stylesheet" href="css/navbar.css">
+    </link>
+    <script src="js/base.js"></script>
+    <script src="js/navbar.js"></script>
+
+</head>
+
 <body>
-    <div class="navbar">
+
+    <div id="navbar" class="navbar">
         <h2 id="title">Ahlgrens Bilar</h2>
         <h6 id="slogga"> ”Den är Sveriges mest köpta bil – det finns bara ett sätt att stoppa den – i munnen”.</h2>
-        <a id="home" href="index.html">Home</a>  
-        <a id="clicker-game" href="clicker.html">Clicker</a>
-        <a id="ranking" href="flavour.html">Flavour Ranking</a>
-        <a id="survey" href="survey.html">Survey</a>   
     </div>
+
+
+    <div style="padding-left:16px">
+        <h2>Survey</h2>
+        <p>Survey</p>
+    </div>
+
     <script>
-        $(function () {
-            $("#navbar").load("survay.html");
-        });
+        addNavBar();
     </script>
+
 </body>
-
-
-
-
-
-
-
-
 
 </html>

@@ -1,54 +1,64 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
-
 <head>
-<title>Ahlgrens Bilar</title>
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/base.css">
+    </link>
+    <link rel="stylesheet" href="css/navbar.css">
+    </link>
+    <script src="js/base.js"></script>
+    <script src="js/navbar.js"></script>
+
 </head>
+
 <body>
 
-<div class="navbar" id="myNavbar"></div>
+    <div id="navbar" class="navbar">
+        <h2 id="title">Ahlgrens Bilar</h2>
+        <h6 id="slogga"> ”Den är Sveriges mest köpta bil – det finns bara ett sätt att stoppa den – i munnen”.</h2>
+    </div>
 
-<div>
-    <a><img id="image1"src="https://www.cloetta.se/imagecache/xpbyohht1syhynwh94pt/07310350109906_A1C1.jpg"></a>
-</div>
+    <div>
+        <a><img id="image1"src="https://www.cloetta.se/imagecache/xpbyohht1syhynwh94pt/07310350109906_A1C1.jpg"></a>
+    </div>
+
+    <div>
+        <p id="credit">Created by Axel</p>
+
+    </div>
 
 
+    <div class="box">
+        <h3 id="info-title">Ahlgrens Bilar</h3>
+        <p>Ahlgrens bilar föddes 1953. På fabriken ville man göra ett skumgodis som liknade amerikanska marshmallows,
+            men trots ett flitigt experimenterande lyckades man inte göra skumbitarna stora nog. En arbetare på fabriken
+            tyckte resultatet liknade den franska sportbilen Bugatti. Eftersom smaken ändå var tillfredsställande
+            bestämde man sig för att lansera produkten som den var.[2]
 
+            Ahlgrens bilar kallades i början för "skumbilar" och såldes i lösvikt, så kallade ettöresbilar. Produkten
+            var ett utpräglat barngodis till skillnad från vuxentabletten Läkerol. Först under 1970-talet lanserades
+            bilarna som en egen profilprodukt för Ahlgrens.
 
+            Sedan 1993, när företaget Ahlgrens köptes av Huhtamäki och varumärket Ahlgrens avvecklades, är bilarna det
+            enda godis som fortfarande säljs under varumärket Ahlgrens.
 
-<div>
-<p id="credit">Created by Axel</p>
+            I december 2011 gick företaget Leaf samman med Cloetta. Det nya bolaget fick namnet Cloetta, med säte i
+            Ljungsbro och huvudkontor i Stockholm. Den före detta simmaren Bengt Baron blir VD på det nya bolaget.
 
-</div>
+            Bilarna formgjuts i majsmjölsschabloner av en smet på socker, glukos-fruktossirap, glukossirap, gelatin,
+            majsstärkelse, vegetabilisk olja och aromer. Massan tillsätts E270 (mjölksyra), E903 (karnaubavax för att
+            inte bilarna ska klibba), E120 (karminsyra till de rosa bilarna) och E141 (klorofyllinkopparkomplex till de
+            gröna bilarna).
 
-        
-<div class="box">
-    <h3 id="info-title" >Ahlgrens Bilar</h3>
-        <p>Ahlgrens bilar föddes 1953. På fabriken ville man göra ett skumgodis som liknade amerikanska marshmallows, men trots ett flitigt experimenterande lyckades man inte göra skumbitarna stora nog. En arbetare på fabriken tyckte resultatet liknade den franska sportbilen Bugatti. Eftersom smaken ändå var tillfredsställande bestämde man sig för att lansera produkten som den var.[2]
+            Under 2010 tillverkades nära 4 miljarder Ahlgrens bilar i fabriken. <a
+                href="https://sv.wikipedia.org/wiki/Ahlgrens_bilar">wikipedia</a> </p>
 
-        Ahlgrens bilar kallades i början för "skumbilar" och såldes i lösvikt, så kallade ettöresbilar. Produkten var ett utpräglat barngodis till skillnad från vuxentabletten Läkerol. Först under 1970-talet lanserades bilarna som en egen profilprodukt för Ahlgrens.
-        
-        Sedan 1993, när företaget Ahlgrens köptes av Huhtamäki och varumärket Ahlgrens avvecklades, är bilarna det enda godis som fortfarande säljs under varumärket Ahlgrens.
-        
-        I december 2011 gick företaget Leaf samman med Cloetta. Det nya bolaget fick namnet Cloetta, med säte i Ljungsbro och huvudkontor i Stockholm. Den före detta simmaren Bengt Baron blir VD på det nya bolaget.
-        
-        Bilarna formgjuts i majsmjölsschabloner av en smet på socker, glukos-fruktossirap, glukossirap, gelatin, majsstärkelse, vegetabilisk olja och aromer. Massan tillsätts E270 (mjölksyra), E903 (karnaubavax för att inte bilarna ska klibba), E120 (karminsyra till de rosa bilarna) och E141 (klorofyllinkopparkomplex till de gröna bilarna).
-        
-        Under 2010 tillverkades nära 4 miljarder Ahlgrens bilar i fabriken. <a href="https://sv.wikipedia.org/wiki/Ahlgrens_bilar">wikipedia</a> </p>
- 
-</div>
-      <script>
-        
-    
-    $(function () {
-                $("#navbar").load("navbar.html");
-            });
-    
-    </script>          
-        
+    </div>
+
+    <script>
+        addNavBar();
+    </script>
+
 </body>
 
-</htmlou
+</html>

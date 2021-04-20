@@ -11,9 +11,6 @@
     animation: leftright 10s linear infinite;
 }
 
-
-
-
 @keyframes leftright{
     0%,100%{
         transform: translate3d(10px,0,0);
