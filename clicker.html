@@ -4,6 +4,8 @@
 <head>
     <link rel="stylesheet" href="css/base.css">
     </link>
+    <link rel="stylesheet" href="css/clicker.css">
+    </link>
     <link rel="stylesheet" href="css/navbar.css">
     </link>
     <script src="js/base.js"></script>
@@ -21,15 +23,23 @@
 
     <div style="padding-left:16px">
         <h2>Bilpåse Clicker!</h2>
-        <p class="cilckerGame"><img  src="https://www.cloetta.se/imagecache/xpbyohht1syhynwh94pt/07310350109906_A1C1.jpg">
-        <p>Antal<img class="antal" src="http://ahlgrensbilarklubben.weebly.com/uploads/5/0/7/2/5072970/header_images/1339778063.jpg"></p>
+        <p><img id="cilckerGame" src="https://www.cloetta.se/imagecache/xpbyohht1syhynwh94pt/07310350109906_A1C1.jpg" onclick="addBilar()">
+        <p>Antal: <span id="counter">0</span><img class="antal" src="http://ahlgrensbilarklubben.weebly.com/uploads/5/0/7/2/5072970/header_images/1339778063.jpg"></p>
         </p>
     </div>
 
-    <script>
-        addNavBar();
-    </script>
+
 
 </body>
-
+    <script>
+        var adder = 1;
+        var clicks = 0;
+        function addBilar(){
+            clicks = clicks + adder
+            counter.innerHTML = clicks
+            //document.getElementById("clickerGame").style.width = "200px"
+            console.log(document.getElementById("clickerGame"))
+        }
+        addNavBar();
+    </script>
 </html>
