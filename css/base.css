@@ -10,6 +10,12 @@
     margin-top: 100px;  
     animation: leftright 10s linear infinite;
 }
+#title{
+    color: white;
+}
+#slogga{
+    color: white;
+}
 
 @keyframes leftright{
     0%,100%{

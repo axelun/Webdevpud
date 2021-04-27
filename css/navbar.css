@@ -5,7 +5,7 @@ body {
 
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color:black;
 }
 
 .navbar a {
@@ -31,6 +31,7 @@ body {
 .navbar .icon {
     display: none;
 }
+
 
 @media screen and (max-width: 600px) {
     .navbar a:not(:first-child) {
@@ -59,4 +60,5 @@ body {
         display: block;
         text-align: left;
     }
+
 }
