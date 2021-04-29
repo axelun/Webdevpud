@@ -1,8 +1,11 @@
-#cilckerGame{
-    width: 500px;
-    height: auto;  
+#clickerGame{
+    width: 40px;
+    height: 40px;  
 }
 .antal{
     width: 40px;
     height: auto;
+}
+.ptag{
+    width: 500px;
 }

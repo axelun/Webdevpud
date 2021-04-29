@@ -3,6 +3,6 @@ var clicks = 0;
 function addBilar(){
     clicks = clicks + adder
     counter.innerHTML = clicks
-    document.getElementById("clickerGame").style.width = "200px"
-    console.log(document.getElementById("clickerGame"))
+    document.getElementById("ptag").children[0].style.width = "300px"
+    
 }
