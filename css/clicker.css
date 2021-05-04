@@ -1,11 +1,30 @@
 #clickerGame{
-    width: 40px;
-    height: 40px;  
+    width: 75%;
+    height: auto;  
+    display: flex;
+}
+#clickerGame:hover{
+    width: 74%;
+    height: auto;  
+    display: flex;
 }
 .antal{
     width: 40px;
     height: auto;
 }
-.ptag{
+.antaltxt{
+    left: 100px;
+}
+#ptag{
     width: 500px;
+    height: 500px;
+}
+.clickAni{
+    animation: clickAni 0.2s ease-in;
+    animation-iteration-count: 1;
+}
+@keyframes clickAni{
+    0%, 20%, 50%, 80%, 100% {transform: scale(1);}
+    40% {transform: scale(0.95);}
+    60% {transform: scale(0.975);}
 }

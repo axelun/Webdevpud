@@ -3,6 +3,9 @@ var clicks = 0;
 function addBilar(){
     clicks = clicks + adder
     counter.innerHTML = clicks
-    document.getElementById("ptag").children[0].style.width = "300px"
-    
+    let element = document.getElementById("clickerGame")
+    element.classList.remove("clickAni")
+    element.focus();
+    element.classList.add("clickAni")
 }
+
