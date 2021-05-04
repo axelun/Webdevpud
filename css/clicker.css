@@ -13,7 +13,11 @@
     height: auto;
 }
 .antaltxt{
-    left: 100px;
+    margin-left: 1350px;
+}
+#upp1{
+    margin-left: 800px;
+    margin-top: 20px;
 }
 #ptag{
     width: 500px;

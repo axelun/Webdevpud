@@ -5,6 +5,7 @@ function addBilar(){
     counter.innerHTML = clicks
     let element = document.getElementById("clickerGame")
     element.classList.remove("clickAni")
+    //very important trigger DOM reflow
     element.focus();
     element.classList.add("clickAni")
 }
