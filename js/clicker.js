@@ -9,4 +9,20 @@ function addBilar(){
     element.focus();
     element.classList.add("clickAni")
 }
+function upp1(){
+    
+    if(clicks >= 150 && adder == 1){
+        adder = adder + 1
+        document.getElementById("upp1").style.backgroundColor = "greenyellow"
+        clicks = clicks -150
+    }
+    else if(adder == 2){
+        document.getElementById("upp1").style.backgroundColor = "greenyellow"
+    }
+    else {
+        adder = adder
+        document.getElementById("upp1").style.backgroundColor = "red"
+    }
+}
+
 

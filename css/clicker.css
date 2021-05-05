@@ -2,6 +2,8 @@
     width: 75%;
     height: auto;  
     display: flex;
+    margin-top: 100px;
+    margin-left: 30px;
 }
 #clickerGame:hover{
     width: 74%;
@@ -14,16 +16,18 @@
 }
 .antaltxt{
     position:absolute;
-    top: 225px;
+    top: 250px;
+    margin-left: 30px;
 }
 
 #upp1{
-    margin-left: 800px;
+    margin-left: 680px;
     color: black;
     background-color: lightblue;
     position: relative;
-    top: 100px;
+    top: 120px;
 }
+
 #upp1:hover{
     background-color: greenyellow;
 }
@@ -45,7 +49,13 @@
     height: 750px;
     margin-left: 500px;
     position:absolute;
+
 }
+#headtxt{
+    position:absolute;
+    margin-top: 40px;
+    margin-left: 45px;
+}   
 #bottom{
     background-color: lightblue;
     width: 1519px;
@@ -55,9 +65,8 @@
 }
 #top{
     background-color: lightblue;
-    margin-left: 700px;
     height: 100px;
-    width: 819px;
+    width: 1519px;
     position: absolute;
 }
 #toptxt{
@@ -65,7 +74,20 @@
     font-size: 90px;
     position: absolute;
     margin-top: -10px;
-    margin-left: 10px;
+    margin-left: 850px;
+}
+#leftborder{
+    background-color: lightblue;
+    position: absolute;
+    width: 10px;
+    height: 750px;
+}
+#rightborder{
+    background-color: lightblue;
+    position: absolute;
+    width: 10px;
+    height: 750px;
+    margin-left: 1509px;
 }
 @keyframes clickAni{
     0%, 20%, 50%, 80%, 100% {transform: scale(1);}
