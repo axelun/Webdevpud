@@ -1,0 +1,70 @@
+#upp1{
+    margin-left: 20px;
+    color: black;
+    background-color: lightblue;
+    position: relative;
+    top: 120px;
+}
+
+#upp1:hover{
+    background-color: greenyellow;
+}
+#uppcost{
+    color: black;
+    font-size: large;
+    margin-bottom: 5px;
+    margin-top: 1px;
+}
+#upp2{
+    margin-left: 20px;
+    color: black;
+    background-color: lightblue;
+    position: relative;
+    top: 120px;
+}
+
+#upp2:hover{
+    background-color: greenyellow;
+}
+#upp3{
+    margin-left: 20px;
+    color: black;
+    background-color: lightblue;
+    position: relative;
+    top: 120px;
+}
+
+#upp3:hover{
+    background-color: greenyellow;
+}
+#upp5{
+    margin-left: 20px;
+    color: black;
+    background-color: lightblue;
+    position: relative;
+    top: 120px;
+}
+
+#upp5:hover{
+    background-color: greenyellow;
+}
+#upp5bild{
+    position: absolute;
+    width: 120px;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+#uppbildtxt{
+    margin-top: 1px;
+    margin-bottom: 4px;
+}
+#upp1txt{
+    margin-top: 2px;
+    margin-bottom: 1px;
+}
+#uppholder{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 710px;
+}
