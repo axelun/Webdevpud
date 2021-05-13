@@ -1,6 +1,6 @@
 var adder = 1;
 var clicks = 0;
-var persec = 0.5;
+var persec = 0;
 var upp1c = 0;
 var upp2c = 0;
 var upp3c = 0;
@@ -58,14 +58,37 @@ function upp3(){
         upp2.style.backgroundColor ="red"
     }
 }
+function upp4(){
+    let upp4 = document.getElementById("upp4")
+    if(clicks >= 50 && upp4c ==0){
+        clicks = clicks - 50
+        counter.innerHTML = clicks
+        upp4.style.backgroundColor = "greenyellow"
+        if(persec > 0){
+           persec = persec + 1 
+        }
+        else{
+            persec = persec + 1
+            setInterval(()=>{clicks = clicks + persec
+            counter.innerHTML = clicks},1000)  
+        }
+    }
+}
 function upp5(){
     let upp5 = document.getElementById("upp5")
     if(clicks >= 10 && upp5c == 0){
         clicks = clicks - 10
         counter.innerHTML = clicks
         document.getElementById("clickerGame").src = "https://www.cloetta.se/imagecache/7ik10o5uxbre0fy1emgm/07310350132904_C1N1.jpg"
-        setInterval(()=>{clicks = clicks + persec
-        counter.innerHTML = clicks},1000)   
+        if(persec > 0){
+            persec = persec + 0.5 
+        }
+        else{
+            persec = persec + 0.5
+            setInterval(()=>{clicks = clicks + persec
+            counter.innerHTML = clicks},1000)  
+        }
+ 
         upp5.style.backgroundColor = "greenyellow"
         upp5c = upp5c + 1
     }
