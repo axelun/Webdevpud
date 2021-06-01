@@ -4,6 +4,7 @@
     height: auto;  
     margin-left: 10%;
     position: relative;
+    margin-bottom: 50%;
 }
 #clickerGame:hover{
     width: 100%;
@@ -18,41 +19,47 @@
     background-color: lightblue;
     width: 100%;
     height: 20%;
-    margin-top: 0%;
-    position:absolute;
+    position:relative;
+    margin-top: -32px;
+}
+#header2{
+    background-color: lightblue;
+    width: 100%;
+    height: 20%;
+    position: relative;
+    margin-top: -32px;
 }
 #bottom1{
     width: 100%;
     height: 10%;
     background-color: lightblue;
-    position: absolute;
-    top: 100%;
+    position: relative;
+    top: -120px;
 }
 #bottom2{
     width: 100%;
     height: 10%;
     background-color: lightblue;
-    position: absolute;
-    top: 100%;
+    position: relative;
 }
 #header1txt{
     position: relative;
-    margin-left: 3%;
-    margin-top: 10%;
     font-size:xx-large;
 }
 #midtxt{
-    margin-top: 120%;
     position: relative;
+    text-align: center;
+}
+#midtxt2{
+    position: relative;
+    text-align: center;
 }
 .antal{
-
     width: 10%;
     height: auto;
 }
 .antaltxt{
     position: relative;
-    margin-top: 25%;
     margin-left: 10%;
 }
 .clickAni{
@@ -61,50 +68,40 @@
 }
 
 #headtxt{
-    position:absolute;
+    position:relative;
     margin-top: 40px;
     margin-left: 45px;
 }  
-#header2{
-    background-color: lightblue;
-    width: 100%;
-    height: 20%;
-    position: absolute;
-    margin-left: -1px;
-}
+
 #header2txt{
     text-align: center;
     color: white;
+    font-size: xx-large;
+    position: relative;
 }
 #uppgrades{
-    position: absolute;
-    width: 50%;
-    margin-left: 50%;
+    position: relative;
     background-color: lightcoral;
-    height: 100%;
 } 
 #clicker{
-    width: 40%;
-    position: absolute;
-    height: 100%;
+    position: relative;
     background-color: blue;
 }
 #info{
-    width: 10%;
-    height: 110%;
-    position: absolute;
-    margin-left: 40%;
+    position: relative;
     background-color: lightblue;
 }
 #game{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 40% 10% 50%;
+    grid-auto-rows: 1fr;
 }
 
-@media screen and (max-width: 800px){
+@media (max-width: 800px){
     #game{
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 40%,10%,50%;
     }
 }
 

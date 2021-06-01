@@ -83,12 +83,4 @@
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    margin-top: 200px;
 }
-#uppholder2{
-    position: absolute;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-}
-
