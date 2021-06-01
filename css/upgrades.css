@@ -1,9 +1,10 @@
 #upp1{
-    margin-left: 20px;
+    margin-left: 10%;
     color: black;
     background-color: lightblue;
     position: relative;
-    top: 120px;
+
+    width: 100%;
 }
 
 #upp1:hover{
@@ -16,44 +17,48 @@
     margin-top: 1px;
 }
 #upp2{
-    margin-left: 20px;
+    margin-left: 10%;
     color: black;
     background-color: lightblue;
     position: relative;
-    top: 120px;
+
+    width: 100%;
 }
 
 #upp2:hover{
     background-color: greenyellow;
 }
 #upp3{
-    margin-left: 20px;
+    margin-left: 10%;
     color: black;
     background-color: lightblue;
     position: relative;
-    top: 120px;
+
+    width: 100%;
 }
 
 #upp3:hover{
     background-color: greenyellow;
 }
 #upp4{
-    margin-left: 20px;
+    margin-left: 10%;
     color: black;
     background-color: lightblue;
     position: relative;
-    top: 120px;
+
+    width: 100%;
 }
 
 #upp4:hover{
     background-color: greenyellow;
 }
 #upp5{
-    margin-left: 20px;
+    margin-left: 10%;
     color: black;
     background-color: lightblue;
     position: relative;
-    top: 120px;
+    width: 100%;
+    
 }
 
 #upp5:hover{
@@ -63,8 +68,8 @@
     position: relative;
     width: 120px;
     height: auto;
-    margin-top: 100px;
-    margin-left: 50px;
+    top: -18%;
+    margin-left: 10%;
 }
 #uppbildtxt{
     margin-top: 1px;
@@ -77,5 +82,13 @@
 #uppholder{
     display: flex;
     flex-wrap: nowrap;
-    margin-left: 710px;
+    flex-direction: row;
+    margin-top: 200px;
 }
+#uppholder2{
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+

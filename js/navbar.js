@@ -17,6 +17,7 @@ function addNavBar() {
     for (let key in navigation) {
         let value = navigation[key];
         let element = document.createElement("a");
+        element.id = key;
         element.textContent = key;
         element.href = value;
         navbar.appendChild(element);
