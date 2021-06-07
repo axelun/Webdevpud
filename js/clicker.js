@@ -67,18 +67,18 @@ function upp3(){
 function upp4(){
     let upp4 = document.getElementById("upp4")
     let persecshow = document.getElementById("midtxt2")
-    if(clicks >= 50 && upp4c ==0){
-        clicks = clicks - 50
+    if(clicks >= 10 && upp4c ==0){
+        clicks = clicks - 10
         counter.innerHTML = clicks
         upp4.style.backgroundColor = "greenyellow"
         if(persec == 0){
-           persec = persec + 1 
+           persec = persec + 0.5 
            persecshow.innerHTML = "Per sekund: " + persec
             setInterval(()=>{clicks = clicks + persec
             counter.innerHTML = clicks},1000) 
         }
         else{
-            persec = persec + 1
+            persec = persec + 0.5
             persecshow.innerHTML = "Per sekund: " + persec
         }
     }
@@ -86,16 +86,16 @@ function upp4(){
 function upp5(){
     let upp5 = document.getElementById("upp5")
     let persecc = document.getElementById("midtxt2")
-    if(clicks >= 10 && upp5c == 0){
-        clicks = clicks - 10
+    if(clicks >= 50 && upp5c == 0){
+        clicks = clicks - 50
         counter.innerHTML = clicks
         document.getElementById("clickerGame").src = "https://www.cloetta.se/imagecache/7ik10o5uxbre0fy1emgm/07310350132904_C1N1.jpg"
         if(persec > 0){
-            persec = persec + 0.5 
+            persec = persec + 1 
             persecc.innerHTML = "Per sekund: " + persec
         }
         else{
-            persec = persec + 0.5
+            persec = persec + 1
             persecc.innerHTML = "Per sekund: " + persec
             setInterval(()=>{clicks = clicks + persec
             counter.innerHTML = clicks},1000)  

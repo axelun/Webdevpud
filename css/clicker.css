@@ -2,12 +2,12 @@
 #clickerGame{
     width: 99%;
     height: auto;  
-    margin-left: 10%;
+    margin-left: 35%;
     position: relative;
     margin-bottom: 50%;
 }
 #clickerGame:hover{
-    width: 100%;
+    width: 98%;
     height: auto;  
 }
 #ptag{
@@ -16,39 +16,30 @@
     height: auto;
 }
 #header1{
-    background-color: lightblue;
+    background-color: rgb(187, 0, 0);
     width: 100%;
     height: 20%;
     position:relative;
     margin-top: -32px;
 }
 #header2{
-    background-color: lightblue;
+    background-color: rgb(187, 0, 0);
     width: 100%;
     height: 20%;
     position: relative;
     margin-top: -32px;
 }
-#bottom1{
-    width: 100%;
-    height: 10%;
-    background-color: lightblue;
-    position: relative;
-    top: -120px;
-}
-#bottom2{
-    width: 100%;
-    height: 10%;
-    background-color: lightblue;
-    position: relative;
-}
+
 #header1txt{
     position: relative;
     font-size:xx-large;
+    text-align: center;
+    color: white;
 }
 #midtxt{
     position: relative;
     text-align: center;
+    line-height: 500%;
 }
 #midtxt2{
     position: relative;
@@ -60,18 +51,12 @@
 }
 .antaltxt{
     position: relative;
-    margin-left: 10%;
+    margin-left: 40%;
 }
 .clickAni{
     animation: clickAni 0.2s ease-in;
     animation-iteration-count: 1;
 }
-
-#headtxt{
-    position:relative;
-    margin-top: 40px;
-    margin-left: 45px;
-}  
 
 #header2txt{
     text-align: center;
@@ -81,15 +66,13 @@
 }
 #uppgrades{
     position: relative;
-    background-color: lightcoral;
 } 
 #clicker{
     position: relative;
-    background-color: blue;
 }
 #info{
     position: relative;
-    background-color: lightblue;
+    background-color: rgb(187, 0, 0);
 }
 #game{
     display: grid;
@@ -97,11 +80,31 @@
     grid-auto-rows: 1fr;
 }
 
+#bottom{
+    background-color: rgb(187, 0, 0);
+    width: 100%;
+    height: 100px;
+    position: absolute;
+}
 @media (max-width: 800px){
     #game{
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: 40%,10%,50%;
+    }
+    #info{
+        height: 20%;
+    }
+    #uppgrades{
+        top: -80.5%;
+    } 
+    #bottom{
+        background-color: rgb(187, 0, 0);
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        top: 1650px;
+        margin-bottom: 0px;
     }
 }
 

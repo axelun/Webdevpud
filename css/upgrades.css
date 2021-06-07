@@ -1,10 +1,10 @@
 #upp1{
-    margin-left: 10%;
+    margin-left: 10px;
     color: black;
-    background-color: lightblue;
+    background-color: yellow;
     position: relative;
-
     width: 100%;
+    border-radius: 10px;
 }
 
 #upp1:hover{
@@ -17,11 +17,11 @@
     margin-top: 1px;
 }
 #upp2{
-    margin-left: 10%;
+    margin-left: 10px;
     color: black;
-    background-color: lightblue;
+    background-color: yellow;
     position: relative;
-
+    border-radius: 10px;
     width: 100%;
 }
 
@@ -29,11 +29,11 @@
     background-color: greenyellow;
 }
 #upp3{
-    margin-left: 10%;
+    margin-left: 10px;
     color: black;
-    background-color: lightblue;
+    background-color: yellow;
     position: relative;
-
+    border-radius: 10px;
     width: 100%;
 }
 
@@ -41,11 +41,11 @@
     background-color: greenyellow;
 }
 #upp4{
-    margin-left: 10%;
+    margin-left: 10px;
     color: black;
-    background-color: lightblue;
+    background-color: yellow;
     position: relative;
-
+    border-radius: 10px;
     width: 100%;
 }
 
@@ -53,12 +53,12 @@
     background-color: greenyellow;
 }
 #upp5{
-    margin-left: 10%;
+    margin-left: 10px;
     color: black;
-    background-color: lightblue;
+    background-color: yellow;
     position: relative;
     width: 100%;
-    
+    border-radius: 10px;
 }
 
 #upp5:hover{
