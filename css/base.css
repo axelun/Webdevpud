@@ -17,7 +17,10 @@
 #slogga{
     color: white;
 }
-
+#backgrund{
+    background-image: url("https://cdn.shopify.com/s/files/1/0148/6268/0118/products/bilar_limo_2048x.jpg?v=1585857822");
+    background-attachment: fixed;
+}
 @keyframes leftright{
     0%,100%{
         transform: translate3d(10px,0,0);

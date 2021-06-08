@@ -35,15 +35,20 @@
     font-size:xx-large;
     text-align: center;
     color: white;
+    font-family: 'Didact Gothic';   
 }
 #midtxt{
     position: relative;
     text-align: center;
     line-height: 500%;
+    color: white;
+    font-family: 'Didact Gothic'; 
 }
 #midtxt2{
     position: relative;
     text-align: center;
+    color: white;
+    font-family: 'Didact Gothic'; 
 }
 .antal{
     width: 10%;
@@ -63,6 +68,7 @@
     color: white;
     font-size: xx-large;
     position: relative;
+    font-family: 'Didact Gothic'; 
 }
 #uppgrades{
     position: relative;
@@ -78,6 +84,11 @@
     display: grid;
     grid-template-columns: 40% 10% 50%;
     grid-auto-rows: 1fr;
+
+}
+#clickerback{
+    background-image: url("https://cdn.shopify.com/s/files/1/0148/6268/0118/products/bilar_limo_2048x.jpg?v=1585857822");
+    background-attachment: fixed;
 }
 
 #bottom{
@@ -86,7 +97,7 @@
     height: 100px;
     position: absolute;
 }
-@media (max-width: 800px){
+@media (max-width: 1000px){
     #game{
         display: grid;
         grid-template-columns: auto;

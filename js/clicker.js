@@ -90,6 +90,10 @@ function upp5(){
         clicks = clicks - 50
         counter.innerHTML = clicks
         document.getElementById("clickerGame").src = "https://www.cloetta.se/imagecache/7ik10o5uxbre0fy1emgm/07310350132904_C1N1.jpg"
+        document.getElementById("header1").style.backgroundColor = "orange"
+        document.getElementById("header2").style.backgroundColor = "orange"
+        document.getElementById("bottom").style.backgroundColor = "orange"
+        document.getElementById("info").style.backgroundColor = "orange"
         if(persec > 0){
             persec = persec + 1 
             persecc.innerHTML = "Per sekund: " + persec
