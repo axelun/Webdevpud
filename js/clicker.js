@@ -51,15 +51,15 @@ function upp2(){
 function upp3(){
     let upp3 = document.getElementById("upp3")
     let perclick = document.getElementById("midtxt")
-    if(clicks >=1000 && upp3c == 0){
+    if(clicks >=800 && upp3c == 0){
         adder = adder + 1
         upp3.style.backgroundColor = "greenyellow"
-        clicks = clicks -1000
+        clicks = clicks -800
         counter.innerHTML = clicks
         upp3c = upp3c + 1
         perclick.innerHTML = "Per click: " + adder
     }
-    else if(clicks < 1000 && upp3c == 1){
+    else if(clicks < 800 && upp3c == 1){
         adder = adder
         upp2.style.backgroundColor ="red"
     }
@@ -67,8 +67,8 @@ function upp3(){
 function upp4(){
     let upp4 = document.getElementById("upp4")
     let persecshow = document.getElementById("midtxt2")
-    if(clicks >= 800 && upp4c ==0){
-        clicks = clicks - 800
+    if(clicks >= 700 && upp4c ==0){
+        clicks = clicks - 700
         counter.innerHTML = clicks
         upp4.style.backgroundColor = "greenyellow"
         if(persec == 0){
