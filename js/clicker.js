@@ -19,15 +19,15 @@ function addBilar(){
 function upp1(){
     let upp1 = document.getElementById("upp1")
     let perclick = document.getElementById("midtxt")
-    if(clicks >= 15 && upp1c == 0){
+    if(clicks >= 150 && upp1c == 0){
         adder = adder + 1
         upp1.style.backgroundColor = "greenyellow"
-        clicks = clicks -15
+        clicks = clicks -150
         counter.innerHTML = clicks
         upp1c = upp1c + 1
         perclick.innerHTML = "Per click: " + adder
     }
-    else if(clicks < 15 && upp1c == 1) {
+    else if(clicks < 150 && upp1c == 1) {
         adder = adder
         upp1.style.backgroundColor = "red"
     }
@@ -35,15 +35,15 @@ function upp1(){
 function upp2(){
     let upp2 = document.getElementById("upp2")
     let perclick = document.getElementById("midtxt")
-    if(clicks >=50 && upp2c == 0){
+    if(clicks >=500 && upp2c == 0){
         adder = adder + 1
         upp2.style.backgroundColor = "greenyellow"
-        clicks = clicks -50
+        clicks = clicks -500
         counter.innerHTML = clicks
         upp2c = upp2c + 1
         perclick.innerHTML = "Per click: " + adder
     }
-    else if(clicks < 50){
+    else if(clicks < 500){
         adder = adder
         upp2.style.backgroundColor ="red"
     }
@@ -51,15 +51,15 @@ function upp2(){
 function upp3(){
     let upp3 = document.getElementById("upp3")
     let perclick = document.getElementById("midtxt")
-    if(clicks >=50 && upp3c == 0){
+    if(clicks >=1250 && upp3c == 0){
         adder = adder + 1
         upp3.style.backgroundColor = "greenyellow"
-        clicks = clicks -50
+        clicks = clicks -1250
         counter.innerHTML = clicks
         upp3c = upp3c + 1
         perclick.innerHTML = "Per click: " + adder
     }
-    else if(clicks < 50 && upp3c == 1){
+    else if(clicks < 1250 && upp3c == 1){
         adder = adder
         upp2.style.backgroundColor ="red"
     }
@@ -67,8 +67,8 @@ function upp3(){
 function upp4(){
     let upp4 = document.getElementById("upp4")
     let persecshow = document.getElementById("midtxt2")
-    if(clicks >= 10 && upp4c ==0){
-        clicks = clicks - 10
+    if(clicks >= 1000 && upp4c ==0){
+        clicks = clicks - 1000
         counter.innerHTML = clicks
         upp4.style.backgroundColor = "greenyellow"
         if(persec == 0){
@@ -86,8 +86,8 @@ function upp4(){
 function upp5(){
     let upp5 = document.getElementById("upp5")
     let persecc = document.getElementById("midtxt2")
-    if(clicks >= 50 && upp5c == 0){
-        clicks = clicks - 50
+    if(clicks >= 5000 && upp5c == 0){
+        clicks = clicks - 5000
         counter.innerHTML = clicks
         document.getElementById("clickerGame").src = "https://www.cloetta.se/imagecache/7ik10o5uxbre0fy1emgm/07310350132904_C1N1.jpg"
         document.getElementById("header1").style.backgroundColor = "orange"
