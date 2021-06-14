@@ -6,10 +6,6 @@
     position: relative;
     margin-bottom: 50%;
 }
-#clickerGame:hover{
-    width: 98%;
-    height: auto;  
-}
 #ptag{
     position: relative;
     width: 60%;
